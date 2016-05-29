@@ -24,7 +24,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'guard'
+  gem 'guard' #runs when changing pages, must use :bundle exec guard init
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
