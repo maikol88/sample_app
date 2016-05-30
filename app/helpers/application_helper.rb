@@ -8,6 +8,6 @@ module ApplicationHelper
     else
       "#{page_title} | Sample App"
     end
-
   end
+
 end
